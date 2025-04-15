@@ -41,8 +41,6 @@ Welcome to my personal portfolio website built using **React**! This project sho
    git clone https://github.com/sathwik324/portfolio.git
    cd portfolio
 
-npm install
-npm start
 
 
 
