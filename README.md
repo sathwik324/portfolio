@@ -1,7 +1,7 @@
 # 🌐 Sathwik Gajula — Portfolio
 <img width="1866" height="940" alt="image" src="https://github.com/user-attachments/assets/7d81e5fb-1cda-4051-9626-3b41864cc254" />
 
-![Portfolio Preview](https://portfolio-nu-kohl-13.vercel.app/)
+
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
