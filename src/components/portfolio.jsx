@@ -658,7 +658,7 @@ function Contact() {
           <EmailLink />
           <div style={{ display: 'flex', justifyContent: 'center', gap: 20, marginTop: 40 }}>
             <SocialButton href="https://github.com/sathwik324"><GithubIcon size={20} /></SocialButton>
-            <SocialButton href="https://www.linkedin.com/in/sathwik-gajula-1a1134325"><LinkedInIcon /></SocialButton>
+            <SocialButton href="https://www.linkedin.com/in/sathwik-gajula"><LinkedInIcon /></SocialButton>
             <SocialButton href="https://mail.google.com/mail/?view=cm&to=gajulasathwik23@gmail.com"><MailIcon /></SocialButton>
           </div>
         </div>
