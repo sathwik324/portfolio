@@ -52,12 +52,7 @@ const projects = [
     tech: ['Python', 'Pandas', 'scikit-learn', 'Streamlit'],
     github: 'https://github.com/sathwik324', live: '#',
   },
-  {
-    id: 4, title: 'Portfolio Website', featured: false,
-    description: 'Personal portfolio built with modern design and smooth animations',
-    tech: ['React', 'Vite', 'CSS Modules', 'Vercel'],
-    github: 'https://github.com/sathwik324', live: '#',
-  },
+
 ];
 
 const skillGroups = [
@@ -340,7 +335,7 @@ function Hero() {
             letterSpacing: 2, textTransform: 'uppercase',
             animation: 'fadeUp 0.6s ease forwards 0.1s', opacity: 0,
           }}>
-            Full Stack &amp; AI/ML Developer
+            AI Engineer &amp; WEB Developer
           </span>
 
           <h1 style={{
@@ -648,7 +643,7 @@ function Contact() {
   return (
     <section id="contact" style={{ padding: '100px 0' }}>
       <div style={containerStyle}>
-        <SectionHeader counter="05" title="CONTACT" />
+        <SectionHeader counter="04" title="CONTACT" />
         <div ref={ref} style={{
           textAlign: 'center', maxWidth: 600, margin: '0 auto',
           opacity: isVisible ? 1 : 0, transform: isVisible ? 'translateY(0)' : 'translateY(30px)',
@@ -664,7 +659,7 @@ function Contact() {
           <div style={{ display: 'flex', justifyContent: 'center', gap: 20, marginTop: 40 }}>
             <SocialButton href="https://github.com/sathwik324"><GithubIcon size={20} /></SocialButton>
             <SocialButton href="https://linkedin.com/in/sathwik"><LinkedInIcon /></SocialButton>
-            <SocialButton href="mailto:sathwik@example.com"><MailIcon /></SocialButton>
+            <SocialButton href="mailto:gajulasathwik23@gmail.com"><MailIcon /></SocialButton>
           </div>
         </div>
       </div>
@@ -675,7 +670,7 @@ function Contact() {
 function EmailLink() {
   const [h, setH] = useState(false);
   return (
-    <a href="mailto:sathwik@example.com"
+    <a href="mailto:gajulasathwik23@gmail.com"
       onMouseEnter={() => setH(true)} onMouseLeave={() => setH(false)}
       style={{
         display: 'inline-block', fontFamily: fonts.heading, fontSize: 'clamp(1.1rem, 3vw, 1.5rem)',
@@ -683,7 +678,7 @@ function EmailLink() {
         borderBottom: h ? `2px solid ${colors.accent}` : '2px solid transparent',
         transition: 'border-color 0.3s',
       }}
-    >sathwik@example.com</a>
+    >gajulasathwik23@gmail.com</a>
   );
 }
 
