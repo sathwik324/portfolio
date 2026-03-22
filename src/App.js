@@ -1,5 +1,4 @@
-import Portfolio from "./portfolio";
-import "./styles.css"; // Import the CSS file for styling
+import Portfolio from './components/portfolio';
 
 function App() {
   return <Portfolio />;
