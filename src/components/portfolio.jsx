@@ -98,7 +98,7 @@ function useIntersection(options = {}) {
     }, { threshold: 0.15, ...options });
     obs.observe(el);
     return () => obs.disconnect();
-  }, []);
+  }, [options]);
   return [ref, isVisible];
 }
 
@@ -237,7 +237,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
         borderBottom: `1px solid ${colors.border}`,
       }}>
         <div style={{ ...containerStyle, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <a href="#" style={{ fontFamily: fonts.display, fontSize: '2rem', color: colors.accent, letterSpacing: 2 }}>Portfolio</a>
+          <a href="https://github.com/sathwik324" style={{ fontFamily: fonts.display, fontSize: '2rem', color: colors.accent, letterSpacing: 2 }}>Portfolio</a>
 
           {/* Desktop links */}
           <ul style={{ display: 'flex', gap: 32 }} className="nav-desktop">
